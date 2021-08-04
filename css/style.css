@@ -6,14 +6,18 @@
 
 body {
     font-family: 'Cairo', sans-serif;
+    background-image: url("../img/sky-3294543_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 800px;
-    margin: 10vh auto;
+    margin: 150px auto;
     padding: 50px;
+    border-radius: 2em;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 .container span {

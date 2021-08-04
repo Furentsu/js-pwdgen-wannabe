@@ -1,10 +1,11 @@
-var nome = console.log(prompt("Qual è il tuo nome?"));
+var nome = prompt("Qual è il tuo nome?");
 
-var cognome = console.log(prompt("Qual è il tuo cognome?"));
+var cognome = prompt("Qual è il tuo cognome?");
 
-var colore = console.log(prompt("Qual è il tuo colore preferito?"));
+var colore = prompt("Qual è il tuo colore preferito?");
 
 var password = nome + cognome + colore;
 
-document.getElementById("password").innerHTML = password;
+
+document.getElementById("password").innerHTML = password + Math.random();
 
