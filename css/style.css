@@ -6,14 +6,11 @@
 
 body {
     font-family: 'Cairo', sans-serif;
-    background-image: url("../img/sky-3294543_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 800px;
-    margin: 150px auto;
+    margin: auto;
     padding: 50px;
     border-radius: 2em;
     text-align: center;
@@ -23,4 +20,14 @@ body {
 .container span {
     color: tomato;
     text-transform: uppercase;
+}
+
+/* ID */
+
+#background {
+    height: 100vh;
+    padding-top: 150px;
+    background-image: url("../img/sky-3294543_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
